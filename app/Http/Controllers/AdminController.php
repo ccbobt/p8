@@ -284,7 +284,7 @@ class AdminController extends Controller
     {
         DB::beginTransaction();
         try {
-            for ($i = 0; $i < 5; $i++) {
+            for ($i = 0; $i < 1; $i++) {
                 // 生成一个可用端口
                 $port = self::$systemConfig['is_rand_port'] ? Helpers::getRandPort() : Helpers::getOnlyPort();
 
