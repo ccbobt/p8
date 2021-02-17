@@ -195,7 +195,7 @@
 
         // 批量生成账号
         function batchAddUsers() {
-            layer.confirm('将自动生成5个账号，确定继续吗？', {icon: 3, title:'警告'}, function(index) {
+            layer.confirm('将自动生成1个账号，确定继续吗？', {icon: 3, title:'警告'}, function(index) {
                 $.post("{{url('admin/batchAddUsers')}}", {_token:'{{csrf_token()}}'}, function(ret) {
                     layer.msg(ret.message, {time:1000}, function() {
                         if (ret.status == 'success') {
