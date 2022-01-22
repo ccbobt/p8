@@ -23,6 +23,9 @@
         "rap2hpoutre/laravel-log-viewer": "^0.19.1",
         "spatie/laravel-permission": "^2.23",
         "youzan/open-sdk": "^1.0"
+        "tymon/jwt-auth": "1.0.*",
+        "irazasyed/telegram-bot-sdk": "^2.0",
+        "riverslei/payment": "4.1.7" //在线支付固定4.1.7版，升5.1.0就不能用
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
